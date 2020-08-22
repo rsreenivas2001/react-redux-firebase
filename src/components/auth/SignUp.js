@@ -20,13 +20,15 @@ class SignUp extends Component {
 
     render() {
         return (
+              
             <div className="container">
                 <div className="row">
-                    <div className="col-6 offset-3 signup bg-secondary ">
+                
+                    <div className="col-6 offset-3 signup bg-second ">
                         <form onSubmit={this.handleSubmit} >
                             <div className="from-group">
                                 <label htmlFor="firstname">First Name</label>
-                                <input type="text" className="form-control" id="Firstname" placeholder="Firstname" onChange={this.handleChange} />
+                                <input type="text" className="form-control" id="firstname" placeholder="Firstname" onChange={this.handleChange} />
                             </div>
                             <div className="from-group">
                                 <label htmlFor="lastname">Last Name</label>
@@ -47,6 +49,7 @@ class SignUp extends Component {
                     </div>
                 </div>
             </div>
+            
         )
     }
 }

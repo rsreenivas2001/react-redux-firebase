@@ -21,7 +21,7 @@ class SignIn extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-6 offset-3 signin bg-secondary ">
+                    <div className="col-6 offset-3 signin bg-second ">
                         <form onSubmit={this.handleSubmit} >
                             <div className="from-group">
                                 <label htmlFor="email">Email Address</label>
