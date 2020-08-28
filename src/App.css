@@ -2,9 +2,9 @@
   background-color: #512DA8;
 }
 
-.nostyle{
-  color: 'inherit';
-  text-Decoration: inherit;
+a:-webkit-any-link {
+  text-decoration-line: none;
+  color: inherit;
 }
 
 .nav-item{
@@ -18,7 +18,7 @@
   padding: 10px
 }
 
-.btn{
+.btn-white{
   color:rgb(228, 218, 231);
 }
 
